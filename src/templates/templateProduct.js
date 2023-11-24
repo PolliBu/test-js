@@ -1,4 +1,4 @@
-function createMarcup(arr) {
+function createMarkup(arr) {
     return arr.map(({ id, name, img, price, description }) => `
         <li data-id="${id}" class= "product-card js-product">
         <img src="${img}" alt="${name}" class="product-img">
@@ -10,4 +10,4 @@ function createMarcup(arr) {
          `).join("")
 }
 
-export{createMarcup}
+export{createMarkup}
