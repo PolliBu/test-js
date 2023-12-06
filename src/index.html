@@ -5,7 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Page title</title>
     <link rel="stylesheet" href="./sass/index.scss" />
-    <script type="module" src="./index.js"></script>
+    <link rel="stylesheet" href="./sass/product.scss" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/flatpickr/4.6.13/flatpickr.min.css"
+    />
+    <!-- <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/basiclightbox@5.0.4/dist/basicLightbox.min.css"
+    /> -->
+    <!-- <script type="module" src="./index.js"></script> -->
   </head>
   <body>
     <!-- <a href="./checkout/checkout.html">Checkout</a>
@@ -18,7 +27,7 @@
       <span class="js-text"></span>
     </div> -->
     <!-- Практика -->
-    <div class="calendar">
+    <!-- <div class="calendar">
       <div class="date-style">
         День тижня:
         <div class="date-day">0</div>
@@ -42,6 +51,74 @@
       <div class="clock-arrow clock-minutes__arrow"></div>
       <div class="clock-arrow clock-hours__arrow"></div>
       <div class="clock-center"></div>
+    </div> -->
+
+    <!--Практика-->
+    <!-- <button class="js-start">Start game</button>
+    <div class="js-container">
+      <div class="item"></div>
+      <div class="item"></div>
+      <div class="item"></div>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/basiclightbox@5.0.4/dist/basicLightbox.min.js"></script> -->
+    <!-- Практика -->
+    <!-- <form action="submit" class="js-search-form search-form">
+      <div class="form-group">
+        <label for="city" class="label">Введіть назву міста:</label>
+        <input type="text" name="city" class="search-input" required />
+      </div>
+      <div class="form-group">
+        <label for="days" class="label">Виберіть кількість днів:</label>
+        <div class="input-group">
+          <select name="days" class="days-select">
+            <option value="3">3</option>
+            <option value="5">5</option>
+            <option value="7">7</option>
+          </select>
+          <button class="search-button">Пошук</button>
+        </div>
+      </div>
+    </form>
+
+    <ul class="js-list weather-cards"></ul> -->
+
+    <!-- <ul class="js-movie-list movie-list"></ul> -->
+    <!-- Load more -->
+    <!-- <div class="button-container">
+      <button class="js-load-more load-more-hidden">Load more</button>
+    </div> -->
+
+    <!-- Infinity scroll -->
+    <!-- <div class="js-guard">1</div> -->
+
+    <!-- <button>Go</button>
+    <div class="wrapper">
+      <div class="box"></div>
+    </div> -->
+
+    <input type="text" id="datetime-picker" />
+    <button type="button" data-start>Start</button>
+
+    <div class="timer">
+      <div class="field">
+        <span class="value" data-days>00</span>
+        <span class="label">Days</span>
+      </div>
+      <div class="field">
+        <span class="value" data-hours>00</span>
+        <span class="label">Hours</span>
+      </div>
+      <div class="field">
+        <span class="value" data-minutes>00</span>
+        <span class="label">Minutes</span>
+      </div>
+      <div class="field">
+        <span class="value" data-seconds>00</span>
+        <span class="label">Seconds</span>
+      </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.6.2/axios.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flatpickr/4.6.13/flatpickr.min.js"></script>
+    <script src="./index.js"></script>
   </body>
 </html>

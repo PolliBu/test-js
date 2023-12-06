@@ -115,94 +115,120 @@
 // border: 1px black solid;
 //   }
 
-.content {
-  background-image: url(https://ireland.apollo.olxcdn.com/v1/files/r1bs7xtaf7d41-UA/image);
-  background-size: cover;
-  width: 650px;
-  height: 400px;
-  font-size: 38px;
-  font-weight: bold;
-  color: yellow;
-}
+// 
+// .item {
+//   width: 50px;
+//   height: 50px;
+//   border: 1px solid black;
+//   outline: auto;
+//   text-align: center;
+//   vertical-align: middle;
+//   line-height: 50px;
+// }
 
-body {
-  /* background-image: url(https://i.ibb.co/Wt6q4QP/1-y-X7-Vd1-G1wi9-F0vth-LEh-AA.jpg); */
-  background-size: cover;
-  background-repeat: no-repeat;
-}
+// .js-container {
+//   display: flex;
+//   border: 1px solid black;
+//   width: 153px;
+// }
 
-.clock {
-  width: 550px;
-  height: 550px;
-  background-image: url(https://i.ibb.co/dBGxSK1/hiclipart-com-3.png);
-  background-color: rgba(255, 255, 255, 0);
-  background-size: cover;
-  border-radius: 50%;
-  position: relative;
-  left: 250px;
-}
+// h1 {
+//   color: #fff;
+// }
 
-.clock-arrow {
-  position: absolute;
-  background-color: black;
-  transform-origin: bottom;
-  transform: translateX(-50%);
-  border-top-right-radius: 10px;
-  border-top-left-radius: 10px;
-}
+// 
 
-.clock-center {
-  position: absolute;
-  background-color: black;
-  top: 268px;
-  left: 268px;
-  width: 20px;
-  height: 20px;
-  border-radius: 50%;
-}
+// .button-container {
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+// }
 
-.clock-seconds__arrow {
-  bottom: 50%;
-  left: 50%;
-  width: 5px;
-  height: 40%;
-}
+// .load-more-hidden {
+//   display: none;
+// }
 
-.clock-minutes__arrow {
-  bottom: 50%;
-  left: 50%;
-  width: 7px;
-  height: 33%;
-}
+// .load-more {
+//   display: inline-block;
+//   padding: 10px 20px;
+//   font-size: 1.2em;
+//   font-weight: bold;
+//   text-align: center;
+//   text-transform: uppercase;
+//   border: none;
+//   border-radius: 5px;
+//   background-color: #007bff;
+//   color: #fff;
+//   cursor: pointer;
+//   transition: background-color 0.3s ease-in-out, transform 0.2s ease-in-out;
+// }
 
-.clock-hours__arrow {
-  bottom: 50%;
-  left: 50%;
-  width: 12px;
-  height: 24%;
-}
+// .movie-list {
+//   display: flex;
+//   flex-wrap: wrap;
+//   justify-content: center;
+//   list-style: none;
+//   padding: 0;
+//   margin: 0;
+// }
 
-.date {
-  width: 100px;
-  height: 100px;
-  color: black;
-}
+// .load-more:hover {
+//   background-color: #0056b3;
+//   transform: scale(1.05);
+// }
 
-.calendar {
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-}
+// .movie-card {
+//   position: relative;
+//   width: 300px;
+//   margin: 20px;
+//   border-radius: 10px;
+//   overflow: hidden;
+//   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+//   background-color: #fff;
+//   transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+// }
 
-.date-style {
-  display: flex;
-  font-size: 40px;
-  font-weight: 900;
-  text-shadow: 3px 3px 2px #cecbcd;
-}
+// .movie-card:hover {
+//   transform: translateY(-5px);
+//   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+// }
 
-.digital-clock {
-  text-align: center;
-  font-size: 60px;
-  text-shadow: 3px 3px 2px #cecbcd;
-}
+// .movie-card img {
+//   width: 100%;
+//   height: auto;
+//   border-top-left-radius: 10px;
+//   border-top-right-radius: 10px;
+// }
+
+// .movie-info {
+//   padding: 15px;
+// }
+
+// .movie-info h2 {
+//   margin: 0;
+//   font-size: 1.8em;
+//   color: #333;
+// }
+
+// .movie-info p {
+//   margin: 5px 0;
+//   font-size: 1.2em;
+//   color: #777;
+// }
+
+// .wrapper{
+//   width: 300px;
+//   height: 300px;
+//   border: 1px solid #000;
+//   position: relative;
+// }
+
+// .box{
+//   position: absolute;
+//   top: 0;
+//   left: 0;
+//   z-index: 1;
+//   width: 50px;
+//   height: 50px;
+//   background-color: red;
+// }
